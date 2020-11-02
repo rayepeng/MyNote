@@ -22,15 +22,15 @@ jobs:
         source_edit_time: true
         publish_commit_message: ${{ github.event.head_commit.message }}
 
-    # example2
-    - name: Gitbook Action
-      uses: ZanderZhao/gitbook-action@master
-      with:
-        token: ${{ secrets.PERSONAL_TOKEN }}
-        time_zone: Asia/Shanghai
-        source_repo: GitbookIO/gitbook
-        source_branch: master
-        source_dir: docs
-        publish_dir: gitbook-docs
-        publish2_repo: gitbook-org/gitbook
+    # # example2
+    # - name: Gitbook Action
+    #   uses: ZanderZhao/gitbook-action@master
+    #   with:
+    #     token: ${{ secrets.PERSONAL_TOKEN }}
+    #     time_zone: Asia/Shanghai
+    #     source_repo: GitbookIO/gitbook
+    #     source_branch: master
+    #     source_dir: docs
+    #     publish_dir: gitbook-docs
+    #     publish2_repo: gitbook-org/gitbook
 
